@@ -1,0 +1,93 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0397d6;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-weight: 700;
+}
+h1, h2, h3{
+    font-family: "Press Start 2P", system-ui;
+    color: #e1d68f;
+}
+.img_nav{
+    height: 130px;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    padding: 20px 0;
+    background: #c285e8;
+    color: #e1d68f;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos home */
+h1{
+    margin: 60px 0;
+    font-size: 2.3em;
+}
+h2{
+    font-size: 1em;
+    font-weight: lighter;
+}
+main{
+    text-align: center;
+}
+.img_flex{
+    border: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.img_main{
+    height: 500px;
+}
+
+/* Estilos question */
+h3{
+    margin: 60px 0;
+    font-size: 1.8em;
+}
+#question button{
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 400px;
+    color: #e1d68f;
+    font-size: 1.2em;
+    border: 2px dashed #e1d68f;
+    border-radius: 5px;
+}
+#question button:hover{
+    background: #e1d68f;
+    color: #0397d6;
+    border: 2px dashed #0397d6;
+    transition: 0.1s;
+}
+#nextQuestion{
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 400px;
+    background: linear-gradient(155deg, #4ba8f1, #cf75de, #db8f7c, #d9e296, #4cbb91);
+    font-size: 2em;
+    font-weight: bold;
+    color: #e1d68f;
+    border: 1px solid #e1d68f;
+    border-radius: 10px;
+}
+#nextQuestion:hover{
+    background: linear-gradient(155deg, #4cbb91, #d9e296, #db8f7c, #cf75de, #4ba8f1);
+}
+#pCorrecta{
+    font-size: 1.8em;
+    color: #4cbb91;
+}
+#pIncorrecta{
+    font-size: 1.8em;
+    color: #db8f7c;
+}
